@@ -3,7 +3,7 @@ const app = express();
 
 
 app.get('/', (req, res) => {
-    res.send('Welcome to Node app in AWS Elastic BeanStalk');
+    res.send('Welcome to NodeJS app in AWS Elastic BeanStalk');
 })
 
 
