@@ -3,7 +3,7 @@ const app = express();
 
 
 app.get('/', (req, res) => {
-    res.send('Welcome to the Node app deployed in AWS');
+    res.send('Welcome to the New Home Page');
 })
 
 
