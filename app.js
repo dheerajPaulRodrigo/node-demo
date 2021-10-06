@@ -9,9 +9,9 @@ app.get('/', (req, res) => {
 app.get('/list', (req, res) => {
     res.send({
         "list": [
-            apple,
-            banana,
-            orange
+            "apple",
+            "banana",
+            "orange"
         ]
     });
 })
